@@ -80,6 +80,12 @@ declare global {
     type: string;
   };
 
+  type UserForNewsEmail = {
+    id: string;
+    email: string;
+    name: string;
+  };
+
   type StockWithWatchlistStatus = Stock & {
     isInWatchlist: boolean;
   };
